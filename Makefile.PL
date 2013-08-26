@@ -6,6 +6,7 @@ all_from       'lib/App/Termcast/Server/Web.pm';
 build_requires 'Test::More';
 
 requires 'Plack';
+requires 'OX';
 requires 'Web::Hippie';
 requires 'Twiggy';
 requires 'EV'; # needs to be installed to work around a current TWiggy bug (3/7)
